@@ -1,10 +1,11 @@
 AVR-PSG differences from AVR-AY:
 
-1. Use T0 as internal clock source instead of T1
-2. Now A & C have same amplitude as B (T1 PWM works in simple 8-bit mode)
-3. Increased the maximum amplitude of all channels by 5 times
-4. Removed support for 2ch version
-5. Replaced volume tables, now AY's envelope period has 16 steps
-6. Improved registers reading
+1. Removed support for ATmega8A
+2. Use T0 as internal clock source instead of T1
+3. Now A & C have same amplitude as B (T1 PWM works in simple 8-bit mode)
+4. Increased the maximum amplitude of all channels by 5 times
+5. Removed support for 2ch version
+6. Replaced volume tables, now AY's envelope period has 16 steps
+7. Improved registers reading
 
 to be continued...
